@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: mvn clean compile assembly:single
+    command: 'echo "TODO: Replace with command to start project"'
